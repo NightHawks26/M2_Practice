@@ -5,7 +5,7 @@ package edu.gatech.oad.antlab.person;
  *  returns their name and a
  *  modified string 
  *  
- *  @author Anthony Bonitatibus
+ *  @author Bob
  *  @version 1.1
  *
  *  TEAM MEMBER: Tony Bonitatibus
