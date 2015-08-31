@@ -8,7 +8,7 @@ import java.util.Random;
  * @author Bob
  * @version 1.1
  *
- **  TEAM MEMBER: Adam Lawrence
+ *  TEAM MEMBER: Adam Lawrence
  */
 public class Person2 {
     /** Holds the persons real name */

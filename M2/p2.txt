@@ -5,6 +5,5 @@ GTID    902885496
 EXTRA CREDIT: all
 
 // updates
-//testing commits to own branch
 
-changed person2.java, deleted useless.p2
+changed person2.java, deleted useless.p2gi
