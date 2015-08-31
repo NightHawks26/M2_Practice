@@ -7,6 +7,9 @@ package edu.gatech.oad.antlab.person;
  *  
  *  @author Bob
  *  @version 1.1
+ *
+ *  TEAM MEMBER: BRIAN ABBOTT
+ *
  */
 public class Person1 {
   /** Holds the persons real name */
@@ -31,7 +34,18 @@ public class Person1 {
 	 */
 	private String calc(String input) {
 	  //Person 1 put your implementation here
-	  return null;
+		String temp = input;
+
+		if (input.length() > 2) {
+
+			String firstTwo = input.substring(0, 1);
+			String restOfString = input.substring(2, input.length() - 1);
+
+			input = restOfString + firstTwo;
+		}
+
+		return input;
+
 	}
 	
 	/**

@@ -7,6 +7,9 @@ package edu.gatech.oad.antlab.person;
  *  
  *  @author Bob
  *  @version 1.1
+ *
+ *  TEAM MEMBER: Tony Bonitatibus
+ *
  */
 public class Person5 {
   /** Holds the persons real name */
@@ -30,8 +33,11 @@ public class Person5 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-	  //Person 5 put your implementation here
-	  return null;
+        String output = input;
+        if (input.length() > 2) {
+            output = input.substring(2) + input.substring(0,2);
+        }
+        return output;
 	}
 	
 	/**
