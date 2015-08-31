@@ -6,4 +6,4 @@ EXTRA CREDIT: all
 
 // updates
 
-changed person2.java, deleted useless.p2
+changed person2.java, deleted useless.p2gi
