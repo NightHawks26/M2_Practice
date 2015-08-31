@@ -1,5 +1,5 @@
 package edu.gatech.oad.antlab.person;
-
+import java.util.Random;
 /**
  *  A simple class for person 2
  *  returns their name and a
@@ -7,6 +7,8 @@ package edu.gatech.oad.antlab.person;
  *
  * @author Bob
  * @version 1.1
+ *
+ **  TEAM MEMBER: Adam Lawrence
  */
 public class Person2 {
     /** Holds the persons real name */
@@ -30,8 +32,29 @@ public class Person2 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-	  //Person 2 put your implementation here
-	  return null;
+        int len = input.length();
+        Random randy = new Random();
+        int[] usedValues = new int[len];
+        boolean flag = true;
+        String nName = "";
+        int value = 0;
+        for (int i = 0; i < len; i++) {
+
+            while(flag) {
+                value = randy.nextInt(len);
+                flag = false;
+                for(int j = 0; j < len; j++) {
+                    if (value +1 == usedValues[j]) {
+                        flag = true;
+                    }
+                }
+            }
+            flag = true;
+            usedValues[i] = value +1;
+            nName += input.substring(value,value+1);
+
+        }
+        return nName;
 	}
 	/**
 	 * Return a string rep of this object
