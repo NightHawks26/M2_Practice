@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Implementation-Title: M2 NightHawks
+Main-class: edu.gatech.oad.antlab.pkg1.AntLabMain
+Class-Path: ../../lib/resources.jar
+
