@@ -1,0 +1,22 @@
+defaultTasks 'jar'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+version '1.0'
+
+dependencies {
+    compile files('lib/resources.jar')
+    //runtime files('lib/resources.jar')
+}
+
+//task myJavadocs(type: Javadoc) {
+//  source = sourceSets.main.allJava
+//}
+
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'M2 NightHawks', 'Main-class': 'edu.gatech.oad.antlab.pkg1.AntLabMain', 'Class-Path': '../../lib/resources.jar'
+    }
+}
