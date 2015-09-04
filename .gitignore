@@ -18,3 +18,13 @@ M2/.idea/vcs.xml
 M2/.idea/workspace.xml
 
 M2/src/main/main.iml
+
+*.bin
+
+.gradle/2.6/taskArtifacts/cache.properties
+
+.gradle/2.6/taskArtifacts/cache.properties.lock
+
+M2/.gradle/2.6/taskArtifacts/cache.properties
+
+M2/.gradle/2.6/taskArtifacts/cache.properties.lock
